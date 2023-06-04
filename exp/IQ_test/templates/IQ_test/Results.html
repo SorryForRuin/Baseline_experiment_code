@@ -1,0 +1,15 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block content %}
+    Your payoff is {{ player.result }}
+
+    Your ID is {{ player_ID }}
+    {% next_button %}
+{% endblock %}
+
+
